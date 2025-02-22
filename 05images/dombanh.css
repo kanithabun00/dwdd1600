@@ -1,0 +1,213 @@
+.karla-extralight {
+    font-family: "Karla", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.karla-light {
+    font-family: "Karla", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.karla-regular {
+    font-family: "Karla", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karla-medium {
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.karla-semibold {
+    font-family: "Karla", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.karla-bold {
+    font-family: "Karla", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.karla-extrabold {
+    font-family: "Karla", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: "Karla", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Header section styling */
+header {
+    background-color: #FBEEDA;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #7B002C;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    padding-top: 3px;
+    color: #40002B;
+    font-weight: 400;
+    font-size: .85rem;
+    font-style: italic;
+}
+
+/* Nav section styling */
+nav {
+    background-color: #7B002C;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2px 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+    font-weight: 500;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav .active a {
+    color: white;
+    opacity: 1;
+}
+
+nav a:hover {
+    color: #FF9999;
+    opacity: 1;
+}
+
+/* Main section styling */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: black;
+}
+
+main h2 {
+    color: #7B002C;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #40002B;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #383838;
+    margin: 0;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #FCF6EC;
+}
+
+main dl dt {
+    color: #8F5100;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #40002B;
+    font-size: .9rem;
+    margin-left: 30px;
+}
+
+main address {
+    font-style: normal;
+    background-color: #FCF6EC;
+    width: 16.8rem;
+    padding: .5rem;
+    border: 2px solid #7B002C;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #7B002C;
+}
+
+main a:hover {
+    color: #FF9999;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #8F5100;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #8F5100;
+}
+
+/* Footer section styling */
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both;
+}

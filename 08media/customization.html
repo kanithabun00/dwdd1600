@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dombanh: Blog</title>
+    <meta name="description" content="Discover and purchase authentic Khmer handicraft products">
+    <meta name="author" content="Kanitha Bun">
+    <link rel="stylesheet" href="dombanh.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!--This is the start of the header.-->
+    <header>
+        <img src="images/dombanh_logo.png" alt="Logo" width="60" height="60">
+        <div>
+            <h1>Dombanh</h1>
+            <p>Timeless Khmer Craftmanship, Uniquely Made for You</p>
+        </div>
+    </header>
+
+    <!--This is the start of the navigation.-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Products</a></li>
+            <li class="active"><a href="customization.html">Customization</a></li>
+            <li><a href="workshop.html">Workshop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!--This is the start of the main section.-->
+    <main>
+        <h1>Request a Customization</h1>
+        <form method="get" class="myform" action="thanks.html">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>Full Name: <input type="text" name="name" required></label>
+                <label>Email Address: <input type="email" name="email" required></label>
+                <label>Phone Number: <input type="tel" name="phone" required placeholder="999-999-9999"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Customizable Products</legend>
+                <label><input type="radio" name="product" value="textiles">Textiles</label>
+                <label><input type="radio" name="product" value="baskets">Baskets</label>
+                <label><input type="radio" name="product" value="ceramics">Ceramics</label>
+                <label><input type="radio" name="product" value="sculptures">Sculptures</label>
+                <label><input type="radio" name="product" value="silverwares">Silverwares</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Customization Options</legend>
+                <label><input type="checkbox" name="engraving" value="chosen">Text Engraving</label>
+                <label><input type="checkbox" name="pattern" value="chosen">Special Pattern</label>
+                <label><input type="checkbox" name="size" value="chosen">Size Adjustment</label>
+                
+                <label>Preferred Customization Duration
+                    <select name="duration">
+                        <option value="none">Select a Duration</option>
+                        <option value="regular">Between 10 and 12 days ($10)</option>
+                        <option value="fast">Between 5 and 7 days ($20)</option>
+                        <option value="very_fast">Between 1 and 3 days ($30)</option>
+                    </select>
+                </label>          
+            </fieldset>
+            
+            <label>Comments: <textarea></textarea></label>
+            <input type="submit" value="Send Customization Request">
+        </form>
+    </main>
+
+    <!--This is the start of the footer.-->
+    <footer>
+        <p>&copy; Kanitha Bun &bull; 2025</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+/* Prevent problems with different browsers */
+* {box-sizing: border-box;}
+
+.sora-thin {
+    font-family: "Sora", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sora-extralight {
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.sora-light {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sora-regular {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sora-medium {
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sora-semibold {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sora-bold {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sora-extrabold {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header section styling */
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-right: 12px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 8px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/* Nav section styling */
+
+/* Small screen format */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 2vw;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        padding: .8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid #068976;
+        background-color: #EDF2F2;
+        color: #333333;
+    }
+
+    nav .active a {
+        background-color: #27b99e;
+        color: white;
+    }
+    
+    .package div {
+        margin-top: -4%;
+    }
+    .package img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .package h3 {
+        font-size: 1.1rem;
+    }
+    
+    .package p {
+        font-size: .9rem;
+    }
+    
+    .package a {
+        margin-left: 8px;
+    }
+}
+/* End to media query */
+
+/* Large screen format */
+@media only screen and (min-width: 601px) {
+    nav {
+        background-image: linear-gradient(to bottom, white, #EDF2F2);
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 4px 2vw;
+        margin: 0;
+        display: flex;
+        gap: 50px;
+    }
+    
+    nav a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #333333;
+        font-weight: 400;
+        display: block;
+        padding: .8rem 0;
+    }
+    
+    nav .active a {
+        color: #068976;
+        font-weight: 400;
+    }
+    
+    nav a:hover {
+        color: #27b99e;
+        font-weight: 400;
+    }
+
+    .package {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .package div {
+        margin-bottom: 2%;
+    }
+    
+    .package img {
+        width: 32%;
+        height: auto;
+        margin-right: 4%;
+    }
+    
+    .package h3 {
+        font-size: 1.1rem;
+    }
+    
+    .package p {
+        font-size: .9rem;
+    }
+    
+    .package a {
+        margin-left: 8px;
+    }
+}
+/* End to media query */
+
+/* Main section styling */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #333333;
+    font-weight: 600;
+}
+
+main h2 {
+    color: #27b99e;
+    margin-bottom: .2rem;
+    font-weight: 600;
+}
+
+main h3 {
+    color: #808285;
+    margin-bottom: .2rem;
+    font-weight: 600;
+}
+
+main p {
+    color: #333333;
+    margin: 0;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main a {
+    color: #068976;
+}
+
+main a:hover {
+    color: #64C6E3;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    flex-basis: 50%;
+    margin: 1rem 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 400;
+    color: #068976;
+}
+
+div.gallery img {
+    width: 98%;
+    height: auto;
+    display: block;
+}
+
+div.gallery img:hover {
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 3px 12px 3px rgba(140, 149, 159, .3);
+    opacity: .8;
+}
+
+.hero {
+    width: 100%;
+    margin: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #27b99e;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table td {
+    color: #333333;
+    font-weight: 300;
+    padding: .4rem 2vw;
+}
+
+table tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+table tr:hover {
+    background-color: rgba(39, 185, 158, .2);
+}
+
+/* Form styling */
+.myform fieldset {
+    border: 1px solid #068976;
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color: #068976;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.myform label, select, [type=text], [type=email], [type=tel], textarea {
+    display: block;
+}
+
+.myform label {
+    margin: .8rem;
+}
+
+.myform [type=text], [type=email], [type=tel], select, textarea {
+    border: 1px solid #555555;
+    padding: .6rem;
+    width: 360px;
+    border-radius: .4rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+}
+
+.myform [type=radio], [type=checkbox] {
+    vertical-align: text-top;
+    margin-right: 10px;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: #EDF2F2;
+}
+
+.myform [type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    margin: 1rem 0 0 1vw;
+    font-family: "Sora", sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Footer section styling */
+footer {
+    border-top: 1px solid #E0E0E0;
+    text-align: center;
+    color: #333333;
+    padding: 1rem 2vw;
+    font-size: .8rem;
+    clear: both;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
